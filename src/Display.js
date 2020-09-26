@@ -15,7 +15,7 @@ class Display extends Component {
       <Navbar bg="light" expand="lg">
         <Navbar.Brand>Dr(u/ea)m Machine</Navbar.Brand>
         <Alert variant="primary" id="display">
-          {this.state.text}
+          {this.props.text}
         </Alert>
       </Navbar>
     );
